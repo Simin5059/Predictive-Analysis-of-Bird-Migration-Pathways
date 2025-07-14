@@ -4,9 +4,14 @@ This repository contains code and data for analyzing and predicting bird migrati
 
 ## Dataset
 
-- **File used**: `birds_observation_data_with_index.csv`
-- This is the **only dataset** used for all experiments.
-- Note: In the code, dataset filenames might vary — **make sure to update them to use `birds_observation_data_with_index.csv`** consistently.
+- **File**: `birds_observation_data_with_index.csv`
+- This dataset is included in the repository.
+- Note: In some code cells, the dataset name may differ. Please make sure to update it to `birds_observation_data_with_index.csv` for consistency.
+
+When switching between different window sizes in the code:
+- You must re-run the dataset loading step.
+- Uncomment the relevant section for the window size you want, and comment out the others.
+
 
 ## How to Use
 
